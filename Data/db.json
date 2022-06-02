@@ -1,0 +1,58 @@
+{
+  "blogs": [
+    {
+      "title": "My new website",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget magna ipsum. Integer vestibulum, erat ut vestibulum iaculis, orci ipsum ultricies elit, at iaculis nunc dui sodales nibh. Sed tempor, ipsum vitae faucibus pretium, nibh magna ornare elit, at pharetra nunc arcu non quam. Nullam blandit ligula non ex accumsan, quis feugiat neque tincidunt. Nunc sit amet augue nulla. Curabitur quis tincidunt leo, eu pharetra lorem. Mauris accumsan ex dapibus turpis sagittis, sit amet rutrum nunc aliquam. Curabitur eleifend nisl id tortor pharetra eleifend. Suspendisse velit metus, laoreet quis iaculis eget, blandit quis tortor. Integer sed nisi placerat, gravida massa id, consectetur dui. Ut feugiat sed elit at consectetur.",
+      "author": "Mario",
+      "id": 1
+    },
+    {
+      "title": "Welcome to my party",
+      "body": "Donec non velit et velit pharetra mollis. In interdum mauris non blandit dapibus. Curabitur commodo leo ante, et lacinia dui aliquam et. Donec laoreet tincidunt turpis, nec rhoncus enim pellentesque eu. Duis eget condimentum leo. Vestibulum accumsan velit quis orci commodo aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ex dui, venenatis sed est sit amet, blandit lacinia dui. Nam cursus sed nisl eu pellentesque. Integer nec luctus arcu, et iaculis mauris. Duis lobortis nisl ac ante ullamcorper, ut scelerisque erat volutpat. Donec dapibus risus in elementum condimentum. Suspendisse vulputate, justo lobortis feugiat malesuada, metus ex vestibulum erat, sit amet viverra neque ligula quis tortor. Morbi congue urna et libero fringilla imperdiet. Vestibulum eu ex at nulla ultricies viverra. Fusce fringilla ante sed dolor ornare, quis aliquet turpis convallis.",
+      "author": "Yoshi",
+      "id": 2
+    },
+    {
+      "title": "Web dev top tips",
+      "body": "Nunc congue vitae libero vel aliquet. Nulla ac dui id libero lacinia lacinia quis cursus mi. Vivamus et lorem sed metus mollis ullamcorper at ut lacus. Maecenas pretium, est nec viverra feugiat, libero libero pretium neque, semper dignissim orci neque a leo. Aliquam in neque ut neque volutpat dictum. Praesent hendrerit augue at est tincidunt malesuada. In hac habitasse platea dictumst. Nam at dolor orci. Phasellus congue quam sit amet ex commodo, tincidunt porttitor risus condimentum. Praesent dui nibh, aliquam ac consequat vel, cursus in eros. Phasellus posuere sem et quam viverra, at consequat leo lacinia. Etiam eget convallis magna, vel consectetur nunc. Donec vulputate dignissim leo ac maximus.",
+      "author": "Manuel",
+      "id": 3
+    },
+    {
+      "title": "Test",
+      "body": "This is a test",
+      "author": "manuel",
+      "id": 4
+    },
+    {
+      "title": "Hello",
+      "body": "Lorem",
+      "author": "manuel",
+      "id": 5
+    },
+    {
+      "title": "Hello",
+      "body": "Lorem",
+      "author": "manuel",
+      "id": 6
+    },
+    {
+      "title": "Hello",
+      "body": "Lorem",
+      "author": "manuel",
+      "id": 7
+    },
+    {
+      "title": "Hello",
+      "body": "This might be the final test",
+      "author": "manuel",
+      "id": 8
+    },
+    {
+      "title": "Hello",
+      "body": "xD",
+      "author": "manuel",
+      "id": 9
+    }
+  ]
+}

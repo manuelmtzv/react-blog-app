@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+// - Variables -
+
+// Font family
+$font: "Quicksand"; 
+
+// Colors
+$dark: #333; 
+$light-gray: #f2f2f2; 
+$salmon: #f1356d;
+
+// - Globals -
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0; 
+  font-family: $font;
+  color: $dark; 
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+// - Components -
+
+// Navbar
+.navbar {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  max-width: 60rem;
+  margin: 0 auto;
+  border-bottom: 1px solid $light-gray;
+
+  h1 {
+    color: $salmon; 
+  }
+
+  .links {
+    margin-left: auto;
+
+    a {
+      margin-left: 1.6rem; 
+      text-decoration: none;
+      padding: 0.6rem;
+      transition: color 250ms ease-in-out;
+
+      &:hover {
+        color: $salmon; 
+      }
+    }
+  }
+}
+
+// Content
+.content {
+  max-width: 60rem;
+  margin: 4rem auto;
+  padding: 2rem; 
+}
+
+// Blog
+.blog-preview {
+  padding: 1rem 1.6rem; 
+  margin: 2rem 0; 
+  border-bottom: 1px solid $light-gray;
+  transition: box-shadow 250ms ease-in-out;
+
+  &:hover {
+    box-shadow: 1px 3px 5px rgba($color: #000000, $alpha: 0.1);
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: $salmon;
+    margin-bottom: 0.8rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+// Blog details
+.blog-details {
+  h2 {
+    font-size: 2rem;
+    color: $salmon; 
+    margin-bottom: 1rem; 
+  }
+
+  div {
+    margin: 2rem 0; 
+  }
+
+  button {
+    background-color: $salmon;
+    color: white; 
+    border: 0; 
+    padding: 0.8rem; 
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+// Form blog
+.create {
+  max-width: 40rem;
+  margin: 0 auto; 
+  text-align: center;
+
+  label {
+    text-align: left;
+    display: block;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: $salmon;
+    margin-bottom: 3rem; 
+  }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    margin: 1rem 0; 
+    border: 1px solid #ddd; 
+    display: block;
+  }
+
+  button {
+    background-color: $salmon;
+    color: white; 
+    border: 0; 
+    padding: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+
